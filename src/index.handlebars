@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{{htmlWebpackPlugin.options.title}}</title>
+  <link rel="stylesheet" href="../public/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="btns">
+      <button id="grid">Grid</button>
+      <button id="slider">Slider</button>
+      <button id="dropdown">Dropdown</button>
+    </div>
+  </header>
+  <div id="content" class="wrapper">
+    {{> ./partials/heroes-list}}
+  </div>
+  <footer class="footer"></footer>
+</body>
+
+</html>
